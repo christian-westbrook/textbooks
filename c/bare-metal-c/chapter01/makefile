@@ -2,5 +2,5 @@ CFLAGS=-ggdb -Wall -Wextra
 
 all: hello.exe
 
-hello: hello.c
+hello.exe: hello.c
 	gcc $(CFLAGS) -o hello.exe hello.c
